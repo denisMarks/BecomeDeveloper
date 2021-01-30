@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+button:focus {
+  outline: 0;
+}
+input:focus {
+  outline: 0;
+}
+body {
+  background-color: black;
+}
+.header {
+  margin: auto;
+  height: 980px;
+  width: 1903px;
+  background-color: black;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.header .header-menu-buttons {
+  display: inline-block;
+  height: 50px;
+  padding-top: 20px;
+  margin-left: 450px;
+}
+.header .header-menu-buttons .header-menu-button {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 90px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+}
+.header .header-title {
+  margin-top: 300px;
+  text-align: center;
+  color: white;
+}
+.header .header-title #header-main-title {
+  margin-top: 300px;
+  font-size: 50px;
+}
+.header .header-title #header-bottom-title {
+  padding-top: 15px;
+  font-size: 20px;
+}
+.content {
+  background-color: black;
+  color: white;
+  margin: auto;
+  height: 5900px;
+  width: 1200px;
+}
+.content .yellow {
+  border-bottom: 1px solid yellow;
+}
+.content .gray-underline {
+  border-bottom: 1px solid gray;
+}
+.content .name {
+  border-bottom: 2px solid blue;
+}
+.content .country {
+  border-bottom: 1px solid green;
+}
+.content .content-courses #main-content-courses-title {
+  padding-top: 80px;
+  letter-spacing: 90px;
+  text-align: center;
+  border-bottom: 3px solid gray;
+  font-size: 50px;
+}
+.content .content-courses #twoyear-course {
+  border-bottom: 3px solid white;
+  padding-top: 150px;
+  font-size: 60px;
+  color: whitesmoke;
+}
+.content .content-courses #twoyear-course-price {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 2px solid yellow;
+  font-size: 20px;
+}
+.content .content-courses #year-course {
+  padding-top: 120px;
+  font-size: 50px;
+  color: whitesmoke;
+}
+.content .content-courses #year-course-price {
+  font-size: 19px;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 2px solid purple;
+}
+.content .content-courses #sixmonth-course {
+  padding-top: 120px;
+  font-size: 40px;
+}
+.content .content-courses #sixmonth-course-price {
+  font-size: 18px;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 2px solid blue;
+}
+.content .content-courses #twomonth-course {
+  padding-top: 120px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+.content .content-courses #twomonth-course-price {
+  font-size: 17px;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 2px solid green;
+}
+.content .content-courses .course-content {
+  padding-top: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 20px;
+  color: whitesmoke;
+}
+.content .content-news #content-news-title {
+  margin-top: 200px;
+  border-bottom: 3px solid gray;
+  text-align: center;
+  padding-top: 80px;
+  letter-spacing: 120px;
+  font-size: 50px;
+}
+.content .content-news .content-news-titles {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: left;
+}
+.content .content-news .content-news-texts {
+  letter-spacing: 2px;
+  line-height: 23px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.content .content-teachers #content-teachers-title {
+  margin-top: 200px;
+  border-bottom: 3px solid gray;
+  text-align: center;
+  padding-top: 80px;
+  letter-spacing: 60px;
+  font-size: 50px;
+}
+.content .content-teachers .content-teachers-names {
+  margin-top: 150px;
+  text-align: left;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.content .content-teachers .content-teachers-texts {
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.content .content-account #content-account-title {
+  padding-top: 230px;
+  letter-spacing: 80px;
+  text-align: center;
+  border-bottom: 3px solid gray;
+  font-size: 50px;
+}
+.content .content-account #content-account-form {
+  margin-top: 90px;
+  margin-left: 14%;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 800px;
+  height: 620px;
+}
+.content .content-account #content-account-form-title {
+  margin-top: 50px;
+  margin-left: 230px;
+  font-size: 50px;
+  letter-spacing: 20px;
+  text-decoration: underline;
+}
+.content .content-account .content-account-input {
+  color: white;
+  padding-left: 20px;
+  font-size: 25px;
+  margin-left: 100px;
+  background-color: black;
+  height: 70px;
+  width: 600px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+.content .content-account #content-account-input1 {
+  margin-top: 80px;
+}
+.content .content-account #content-account-input2 {
+  margin-top: 25px;
+}
+.content .content-account .content-account-button {
+  margin-left: 100px;
+  height: 50px;
+  width: 620px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content .content-account .content-account-button:hover {
+  border: none;
+  background-color: gray;
+}
+.content .content-account #content-account-form-or {
+  font-weight: 100;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+.content .content-account #content-account-button-login {
+  margin-top: 50px;
+}
+.content .content-account #content-account-button-register {
+  margin-top: 15px;
+}
+.content a {
+  color: black;
+  text-decoration: none;
+}
+.content #button-totop {
+  color: black;
+  margin-top: 180px;
+  margin-left: 175px;
+  height: 60px;
+  width: 800px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content #button-totop:hover {
+  border: none;
+  background-color: gray;
+}
